@@ -1,0 +1,31 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+ 
+}
+.container{
+    height:1400px ;
+    height: 900px;
+    margin:auto;
+    box-sizing: border-box;S
+ 
+
+}
+
+
+.haut{
+
+  
+        display: flex ;
+        justify-content: space-between;
+        padding: 3rem 7rem 0rem 7rem;
+        color:hsl(243, 87%, 12%) ;
+        
+   
+}
+
+.bar{
+    font-family: 'Raleway', sans-serif;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
