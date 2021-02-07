@@ -14,3 +14,18 @@ body{
     margin-right: 40px;
     color: white;
 }
+.image{
+    text-align: center;
+    color: white;
+}
+.btn{
+    width: 15%;
+    height: 40px;
+    background-color: darkcyan;
+    margin-left: 530px;
+    border-radius: 30px;
+    text-align: center;
+}
+.GS{ padding-top: 12px;
+    color: white;
+}
