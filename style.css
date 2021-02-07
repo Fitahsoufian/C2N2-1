@@ -29,3 +29,37 @@ body{
 .GS{ padding-top: 12px;
     color: white;
 }
+.for{
+    display: flex;
+    flex-direction: column;
+}
+.two{
+display: flex;
+margin-top: 12px;
+}
+.two1{
+    display: flex;
+    margin-top: 12px;
+}
+.txt{
+    text-align: center;
+    color: white;
+}
+.img{
+    margin-left: 135px;
+}
+.anywhere{
+    margin-top: 12px;
+    margin-left: 250px;
+    margin-right: 5px;
+}
+.security{
+    margin-left: 70px;
+}
+.collaboration{
+    margin-left: 250px;
+    margin-right: 5px;
+}
+.store{
+    margin-left: 70px;
+}
