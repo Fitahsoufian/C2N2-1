@@ -1,0 +1,16 @@
+body{
+    background-color:hsl(218, 28%, 13%);
+    width: 1240px;
+    height:auto ;
+}
+.logo{
+    margin-left: 40px;
+}
+.nav{
+    float: right;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    color: white;
+}
