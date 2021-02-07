@@ -119,3 +119,35 @@ margin-top: 12px;
 .desc{
    color: white;
 }
+.access{
+    width: 700PX;
+   margin-left: 300px;
+   background-color: blanchedalmond;
+   text-align: center;
+   height: 11rem;
+  background-color :hsl(217, 27%, 19%);
+}
+.oo{
+    display: flex;
+    justify-content: space-around;
+}
+
+#email {
+    width: 150%;
+    border-radius: 51PX;
+    BORDER: NONE;
+    HEIGHT: 0.5rem;
+    padding: 1rem;
+}
+
+.btn2{
+    background-color: darkcyan;
+    width: 30%;
+    border-radius: 51PX;
+    BORDER: NONE;
+    height: 2.5rem;
+    color: white;
+}
+.color{
+    color: white;
+}
