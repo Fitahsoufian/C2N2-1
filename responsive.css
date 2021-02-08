@@ -1,0 +1,57 @@
+@media screen and (max-width: 992px){
+
+
+    .top {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .logo {
+        margin-left: 40px;
+    }
+
+    .nav {
+        float: right;
+        width: 530px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 64px;
+        margin-top: -40px;
+        color: white;
+     }
+
+     .nav p {
+         font-size: 41px;
+     }
+}
+
+@media screen and (max-width: 592px){
+
+    .top {
+        width: 100%;
+        margin-top: 72px;
+        padding: 0rem -1rem 3rem 1rem;
+        margin-bottom: 72px;
+    }
+
+    .logo {
+        margin-left: 40px;
+        width: 21rem;
+    }
+
+    .nav {
+        float: right;
+        width: 579px;
+        display: flex;
+        margin-right: 62px;
+        margin-top: -35px;
+        color: white;
+        justify-content: space-between;
+        gap: 52px;
+    }
+
+    .nav p {
+        font-size: 50px;
+    }
+
+}
