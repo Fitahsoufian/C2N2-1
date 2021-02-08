@@ -15,6 +15,7 @@ body{
     color: white;
 }
 .image{
+    background-image: url(/images/bg-curvy-desktop.svg);
     text-align: center;
     color: white;
 }
