@@ -2,10 +2,15 @@ body{
     background-color:hsl(218, 28%, 13%);
     width: 1240px;
     height:auto ;
+<<<<<<< HEAD
     
+=======
+    font-family: 'Raleway', sans-serif;
+>>>>>>> 52440af45824ee36fec1c80086977c69db68f6d1
 }
 .logo{
     margin-left: 40px;
+    margin-top: 12px;
 }
 .nav{
     float: right;
@@ -152,4 +157,68 @@ margin-top: 12px;
 }
 .color{
     color: white;
+}
+.footer{
+    background-color: rgb(10, 0, 27);
+    display: flex;
+    padding: 1rem;
+}
+.location{
+    width: 30%;
+    display: flex;
+}
+.iconl{
+height: 20%;
+margin-top: 25px;
+margin-right: 20px;
+}
+.phone{
+
+    display: flex;
+}
+.iconp{
+    height: 20%;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+.gmail{
+    display: flex;
+}
+.msg{
+    height: 20%;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+.tkh{
+    display: block;
+    margin-left: 70px;
+}
+.tkh2{
+    display: block;
+    margin-left: -600px;
+}
+.inf{
+    margin-left: 70px;
+    height: 50%;
+}
+.inf{
+    margin-left: 170px;
+    height: 50%;
+}
+.inf2{
+    margin-left: 140px;
+}
+.ft{
+    color: white;
+}
+.social{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.fab {
+        color: white;
+        border: white;
+        border-style: inset;
+        padding: 9px 11px 9px 12px;
+        border-radius: 50%;
 }
