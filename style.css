@@ -3,6 +3,7 @@ body{
     width: 1240px;
     height:auto ;
     font-family: 'Raleway', sans-serif;
+    margin: 0;  
 }
 .top{
     margin-top: 30px;
@@ -23,12 +24,13 @@ body{
     background-image: url(/images/bg-curvy-desktop.svg);
     text-align: center;
     color: white;
+    margin-right: 51px;
 }
 .btn{
     width: 15%;
     height: 40px;
     background-color: darkcyan;
-    margin-left: 530px;
+    margin-left: 500px;
     border-radius: 30px;
     text-align: center;
 }
@@ -38,33 +40,52 @@ body{
 .for{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    padding-left: 21px;
 }
 .two{
 display: flex;
 margin-top: 12px;
+justify-content: space-between;
+width: 80%;
 }
 .two1{
+    
     display: flex;
     margin-top: 12px;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 35px;
 }
 .txt{
     text-align: center;
     color: white;
+    font-size: 12px;
 }
 .img{
-    margin-left: 135px;
+    margin-left: 112px;
+}
+.img1{
+    margin-left: 125px;
+}
+.img3{
+    margin-left: 125px;
+}
+.img4{
+    margin-left: 97px;
+
 }
 .anywhere{
     margin-top: 12px;
-    margin-left: 250px;
-    margin-right: 5px;
+    margin-left: 200px;
+    margin-right: 104px;
 }
 .security{
     margin-left: 70px;
 }
 .collaboration{
-    margin-left: 250px;
-    margin-right: 5px;
+    margin-left: 180px;
+    margin-right: 70px;
 }
 .store{
     margin-left: 70px;
@@ -74,7 +95,7 @@ margin-top: 12px;
     margin-top: 100px;
 }
 .imageb{
-    margin-left: 100px;
+    margin-left: 80px;
 }
 .prod{
     width: 700px;
@@ -93,10 +114,12 @@ margin-top: 12px;
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
+    margin-bottom: 150px;
 }
 .satish{
     padding: 20px;
     background-color: rgb(12, 0, 31);
+    margin-left: 20px;
 }
 .bruce{
     padding: 20px;
@@ -161,6 +184,7 @@ margin-top: 12px;
     background-color: rgb(10, 0, 27);
     display: flex;
     padding: 1rem;
+    width: 99%;
 }
 .location{
     width: 30%;
