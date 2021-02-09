@@ -27,8 +27,8 @@ body{
     margin-right: 51px;
 }
 .btn{
-    width: 240px;
-    height: 40px;
+        width: 240px;
+    /* height: 40px; */
     background-color: darkcyan;
     border-radius: 30px;
     text-align: center;
@@ -36,9 +36,10 @@ body{
     left: 0;
     right: 0;
     margin: 0 auto;
+    color: white;
 }
-}
-.GS{ padding-top: 12px;
+
+.GS{ 
     color: white;
 }
 .for{
