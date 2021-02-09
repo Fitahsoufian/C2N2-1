@@ -1,31 +1,153 @@
-body{
-    font-family: 'Open Sans', sans-serif;
- 
-}
-.container{
-    height:1400px ;
-    height: 900px;
-    margin:auto;
-    box-sizing: border-box;S
- 
-
-}
-
-
-.haut{
-
-  
-        display: flex ;
-        justify-content: space-between;
-        padding: 3rem 7rem 0rem 7rem;
-        color:hsl(243, 87%, 12%) ;
-        
-   
-}
-
-.bar{
-    font-family: 'Raleway', sans-serif;
-    width: 20%;
+header nav, #showcase-1 .showcase-1-content {
     display: flex;
+    align-items: center;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  .container {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 33px;
+   
+  }
+  
+  .l-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 41px;
+  }
+  
+  header {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  header nav {
+    margin-top: 33px;
     justify-content: space-between;
-}
+  }
+  
+  header nav .nav-logo img {
+    width: 120px;
+  }
+  
+  header nav ul {
+    display: inherit;
+  }
+  
+  header nav ul li a {
+    color: #070439;
+    font-size: 15px;
+  }
+  
+  header nav ul li:not(:last-child) a {
+    margin-right: 30px;
+  }
+  
+  #showcase-1 {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  #showcase-1 .showcase-1-content {
+    margin-top: 50px;
+    justify-content: space-between;
+  }
+  
+  #showcase-1 .showcase-1-content .left-content {
+    padding-right: 1rem;
+  }
+  
+  #showcase-1 .showcase-1-content .left-content div h1 {
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+  
+  #showcase-1 .showcase-1-content .left-content div p {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  
+  #showcase-1 .showcase-1-content .left-content div form {
+    width: 80%;
+    display: flex;
+  }
+  
+  #showcase-1 .showcase-1-content .left-content div form input {
+    outline: none;
+    flex-grow: 2;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    border: 1px solid #070439;
+    margin-right: 15px;
+    font-size: 15px;
+    font-weight: 300;
+  }
+  
+  #showcase-1 .showcase-1-content .left-content div form button {
+    flex-grow: 1;
+    border: none;
+    background: #3065f8;
+    color: #f6f6fe;
+    font-weight: bold;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 1rem 2rem;
+    box-shadow: -1px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #showcase-1 .showcase-1-content .left-content div form button:hover {
+    background: #4978f8;
+  }
+  @media screen and (max-width: 960px) {
+  #showcase-1 .showcase-1-content {
+    flex-direction: column-reverse;
+  }
+  #showcase-1 .showcase-1-content .left-content {
+    margin-top: 50px;
+    text-align: center;
+  }
+  #showcase-1 .showcase-1-content .left-content div h1 {
+    font-size: 32px;
+  }
+  #showcase-1 .showcase-1-content .left-content div p {
+    font-size: 17px;
+  }
+  #showcase-1 .showcase-1-content .left-content div form {
+    width: 100%;
+    flex-direction: column;
+  }
+  #showcase-1 .showcase-1-content .left-content div form input {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+  #showcase-1 .showcase-1-content .right-content {
+    margin-top: 50px;
+  }
