@@ -1,6 +1,8 @@
 @media screen and (max-width: 992px){
 
-
+        body{
+            width: 1240px;
+        }
     .top {
         width: 100%;
         margin-top: 40px;
@@ -29,12 +31,55 @@
         width: 100%;
     }
     .image p{
-        font-size: 28px;
+        font-size: 32px;
     }
 
     .txt{
-        font-size: 22px;
+        font-size: 32px;
     }
+
+ .btn {
+    font-size: 24px;
+    width: 30%;
+    height: 58px;
+    margin: 0 auto;
+    text-align: center;
+    }
+
+    .for{
+
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-top: 150px;
+    }
+
+    .two{
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+
+    .anywhere , .security , .collaboration ,.store{
+        margin-bottom: 150px;
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .two1{
+       
+         display: block;
+         width: 100%;
+         text-align: center;
+    }
+
+    .img1 ,.img3 ,.img4,.img{
+
+        width: 15%;
+        margin: 0;      
+}
+
 }
 
 @media screen and (max-width: 592px){
@@ -81,6 +126,7 @@
     .image p{
         font-size: 28px;
     }
+
 
 
 }
