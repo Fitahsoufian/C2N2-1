@@ -1,6 +1,8 @@
 @media screen and (max-width: 992px){
 
-
+        body{
+            width: 1240px;
+        }
     .top {
         width: 100%;
         margin-top: 40px;
@@ -18,11 +20,66 @@
         margin-right: 64px;
         margin-top: -40px;
         color: white;
+
      }
 
      .nav p {
          font-size: 41px;
      }
+
+     .image{
+        width: 100%;
+    }
+    .image p{
+        font-size: 32px;
+    }
+
+    .txt{
+        font-size: 32px;
+    }
+
+ .btn {
+    font-size: 24px;
+    width: 30%;
+    height: 58px;
+    margin: 0 auto;
+    text-align: center;
+    }
+
+    .for{
+
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-top: 150px;
+    }
+
+    .two{
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+
+    .anywhere , .security , .collaboration ,.store{
+        margin-bottom: 150px;
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .two1{
+       
+         display: block;
+         width: 100%;
+         text-align: center;
+    }
+
+    .img1 ,.img3 ,.img4,.img{
+
+        width: 15%;
+        margin: 0;      
+}
+
 }
 
 @media screen and (max-width: 592px){
@@ -33,6 +90,19 @@
         padding: 0rem -1rem 3rem 1rem;
         margin-bottom: 72px;
     }
+    .for{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 150px;
+    }
+    .btn {
+    font-size: 24px;
+    width: 30%;
+    height: 58px;
+    margin-left: 437px;
+    text-align: center;
+          }
 
     .logo {
         margin-left: 40px;
@@ -47,11 +117,16 @@
         margin-top: -35px;
         color: white;
         justify-content: space-between;
-        gap: 52px;
+       
     }
 
     .nav p {
         font-size: 50px;
     }
+    .image p{
+        font-size: 28px;
+    }
+
+
 
 }
