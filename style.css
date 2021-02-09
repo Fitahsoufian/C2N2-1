@@ -29,7 +29,7 @@ header nav, #showcase-1 .showcase-1-content {
     width: 100%;
   }
   
-  .container {
+  .container, .sect-2 {
     max-width: 1440px;
     margin: auto;
     padding: 0 33px;
