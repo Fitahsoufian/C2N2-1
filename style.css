@@ -292,5 +292,17 @@ margin-top: 3rem;
 .stay1{
   margin-top: 40px;
 }
-  
+  .access{
+    display: flex;
+    flex-direction: column;
+    width:120 ;
+    height: 34rem;
+  }
+    .oo{
+      margin-top: 47px;
+    }
+    .oo.email{
+      width: 150px;
+    }
+
   }
