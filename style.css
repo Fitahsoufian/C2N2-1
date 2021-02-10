@@ -195,8 +195,9 @@ width: 80%;
 .footer{
     background-color: rgb(10, 0, 27);
     display: flex;
-    padding: 1rem;
+    padding: 90px 20px 20px 20px;
     width: 99%;
+    justify-content: space-around;
 }
 .location{
     width: 30%;
