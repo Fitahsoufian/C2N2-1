@@ -15,6 +15,7 @@ body {
     color: #3da08f;
     text-decoration: none;
     border-bottom: 1px solid #3da08f;
+    font-size: 1rem;
 }
 
 .ilustration img {
@@ -123,8 +124,8 @@ button {
 .first-section::before {
     content: "";
     background-image: url(./img/bg-curve-desktop.svg);
-    background-position: center center;
-    top: -70px;
+    background-position: bottom;
+    top: -60px;
     height: 70px;
     width: 100%;
     position: absolute;
@@ -192,6 +193,10 @@ h3 {
     padding: 40px 20px;
 }
 
+.l-sec {
+    max-width: 543px;
+}
+
 .last-section form {
     margin-bottom: 25px;
     width: 26rem;
@@ -256,19 +261,39 @@ footer .circle {
     width: 40px;
 }
 
+footer .circle:hover {
+    background-color: dodgerblue;
+}
+
+.last-section form button:hover {
+    background-color: dodgerblue;
+}
+
+.flex form button:hover {
+    background-color: dodgerblue;
+}
+
+li:hover {
+    color: hsl(238, 22%, 44%);
+    cursor: pointer;
+}
+
+.green:hover {
+    color: hsl(170deg 50% 65%);
+}
+
 @media screen and (max-width: 904px) {
-    body {
-        text-align: center;
-    }
     header ul li a {
         margin-left: 20px;
         font-size: 16px;
     }
     .first-section::before {
         content: "";
-        background-image: url('./images/bg-curve-mobile.svg');
+        background-image: url(./img/bg-curve-mobile.svg);
         background-size: cover;
         height: 80px;
+        background-size: 102% 102%;
+        right: 0px;
     }
     nav.flex {
         flex-direction: row;
@@ -276,9 +301,13 @@ footer .circle {
     .logo {
         width: 28%;
     }
+    .flexx {
+        text-align: center;
+    }
     .flex-footer,
     .flex-em {
         flex-direction: column;
+        min-width: 100%;
     }
     .flex>div {
         width: 100%;
@@ -288,6 +317,7 @@ footer .circle {
     }
     .containerr {
         display: block;
+        margin-top: -1rem;
     }
     .flex {
         flex-direction: column-reverse;
@@ -317,6 +347,9 @@ footer .circle {
     .testi-box img {
         margin-left: 20px;
     }
+    .l-sec {
+        max-width: 100%;
+    }
     .last-section form {
         width: 100%;
         gap: 11px;
@@ -337,12 +370,26 @@ footer .circle {
         margin-top: 10px;
     }
     footer img {
-        background-position: left;
-        margin: 0;
-        left: 0;
+        padding-left: 1rem;
     }
     footer ul {
         text-align: left;
         width: 100%;
+    }
+    h2 {
+        font-size: 26px;
+        text-align: center;
+    }
+    h3 {
+        text-align: center;
+        margin-top: 3rem;
+        font-size: 1rem;
+    }
+    p {
+        text-align: center;
+    }
+    .flex-footer,
+    .social {
+        margin-top: 3rem;
     }
 }
