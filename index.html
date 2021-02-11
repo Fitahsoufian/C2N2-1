@@ -1,90 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet">
-  
-  <link rel="stylesheet" href="style.css">
-
-  
-  <title>projet 4</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="./img/logo.svg" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Projet 4</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 </head>
+
 <body>
-  <!-- Header -->
-  <header>
-    <div class="container">
-      <nav>
-        <a href="#" class="nav-logo">
-          <img src="img/logo.svg" alt="">
+    <header>
+        <!-- star header -->
+        <!-- 1eme partie -->
+        <div class="container">
+            <nav>
+                <img class="logo" src="./img/logo.svg" alt="fylo" />
+                <ul>
+                    <li><a href="#"><u>Features</u></a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Sign in</a>
+                </ul>
+            </nav>
+            <!-- 1eme partie -->
+            <div class="flex">
+                <div>
+                    <h2>All your files in one secure location, accessible anywhere.</h2>
+                    <p>Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
+                    <form>
+                        <input type="text" placeholder="Enter your email">
+                        <button>Get Started</button>
+                    </form>
+                </div>
+                <div class="ilustration">
+                    <img src="./img/illustration-1.svg" alt="illustration-1" />
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+    <!-- end section1 -->
+    <!-- star section2 -->
+    <section class="first-section">
+        <div class="container">
+            <div class="flex">
+                <div>
+                    <h3>Stay productive, wherever you are</h3>
+                    <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
+                    <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
+
+                    <a class="green" href="#">See how Fylo works
+          <img src="./img/icon-arrow.svg" alt="arrow" />
         </a>
-        <ul>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Team</a></li>
-          <li><a href="#">Sign In</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <!-- section1 -->
-  <section id="showcase-1">
-    <div class="container">
-      <div class="showcase-1-content">
-        <div class="left-content">
-          <div>
-            <h1 class="left-content">All your files in one secure location, accessible anywhere.</h1>
-            <p>Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
-            <form action="#">
-              <input type="text" placeholder="Enter your email...">
-              <button>Get Started</button>
-            </form>
-          </div>
+                    <div class="testi-box">
+                        <img src="./img/icon-quotes.svg" alt="quote">
+                        <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+                        <div class="user-info">
+                            <div>
+                                <img src="./img/avatar-testimonial.jpg" alt="user" />
+                            </div>
+                            <div>
+                                <h4>Kyle Burton</h4>
+                                <small>Founder & CEO, Huddle</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ilustration">
+                    <img src="./img/illustration-2.svg" alt="illustration-2">
+                </div>
+            </div>
         </div>
-        <div class="right-content">
-          <div>
-            <img  src="img/illustration-1.svg" alt="">
-          </div>
+    </section>
+    <!-- end section2 -->
+    <!-- star Last section -->
+
+    <section class="last-section">
+        <div class="container">
+            <div class="flex-em">
+                <div class="text">
+                    <h2>Get early access today</h2>
+
+                    <p style="max-width: 543px;">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+                </div>
+                <form>
+                    <input type="email" placeholder="email@example.com" />
+                    <button>Get Started For Free</button>
+                </form>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <!-- Section 2  -->
-  <section class="sect-2">
-<div class="two">
-<div class="right">
-  <h1 class="stay">Stay productive  ,  wherever you are</h1>
-  <p class="stay1">Never let location be an issue when accessing your files .Fylo has you <br>covered for all of your file storage needs. <br> <br>Securely share files and folders with friends, family and colleagues for live <br>collaboration.No email attachements required. </p>
-  <div class="kyle">
-    <p class="desc" >Fylo has improved our team productivity by <br> an order of magnitude .Since making the <br>switch our team has become a well-oiled <br> collaboration machine .</p>
-    <div class="org">
-    <img  class="prfl" src="./img/avatar-testimonial.jpg" alt="">
-    <div class="org1">
-    <h5 class="desc">Kyle Burton</h5>
-    <p class="desc"> Founder & CEO, Huddle</p>
-</div>
-</div>
-</div>
-</div>
-<div class="left">
-<img class="on" src="./img/illustration-2.svg" alt="">
-</div>
-</div>
-  </section>
-  <!-- Section 3  -->
-  <div class="access">
-    <div class="para">
-    <h1 class="GE">Get early access today</h1>
-    <p class="txt">it only takes a minute to sign up and our free starter tier is extremely generous. If you have any <br> questions,our support teeam would be happy to help you.</p>
-  </div>
-<div class="oo">
-    <div class="email">
-        <input type="email" id="email" name="email" placeholder="email@example.com">
-    </div>
-    <button  class="btn2">Get Starded For Free</button>
-</div>
-</div>
+    </section>
+    <!-- end last section -->
+    <!-- star footer -->
+    <footer>
+        <div class="containerr">
+            <div class="contactt">
+                <img src="./img/unknown.png" alt="logo-footer" />
+                <ul>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i>Phone: +1-543-123-4567</li>
+                    <li>Example@fylo.com</li>
+                </ul>
+            </div>
+            <div class="flex-footer">
+                <ul>
+                    <li>About Us</li>
+                    <li>Jobs</li>
+                    <li>Press</li>
+                    <li>Blog</li>
+                </ul>
+                <ul>
+                    <li>Contact Us</li>
+                    <li>Terms</li>
+                    <li>Privacy</li>
+                </ul>
+            </div>
+            <div class="social">
+                <ul class="social-media">
+                    <li>
+                        <a class="circle" href="#"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a class="circle" href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a class="circle" href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
 </body>
-  </html>
+
+</html>
