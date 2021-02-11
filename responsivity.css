@@ -16,3 +16,12 @@
         margin-bottom: 5em;
         max-width: 400px;
         }
+    .saty-productive {
+            margin-top: 2em;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 7em;
+        }
+
+    }
