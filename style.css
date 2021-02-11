@@ -398,15 +398,171 @@ li:hover {
 
 /* Team page css */
 .img{
-    width: 100px;
-    height: 100px;
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+}
+.for{
+    display: flex;
+    background-image: url(./img/bg-curve-desktop.svg);
+    background-position: top;
+    background-size: 102% 102%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.duo{
+    display: flex;
+}
+.duo2{
+display: flex;
+}
+.meet{
+    text-align: center;
+    margin-bottom: 100px;
 }
 
 
+.fab:hover{
+    color: indianred;
+    cursor: pointer;
+}
 
+.social .social-media .fab{
+    font-size: 22px;
+    width: 19px;
+    margin-top: 0px;
+    color: white;
+}
+.container ul li a:hover{
+    color: indianred;
+    cursor: pointer;
+}
+.org{
+    margin-top: -25px;
+    color: #4A4A4A;
+}
+.color{
+    color: #4A4A4A ;
+    font-size: bold;
+}
+.fab{
+    color: black;
+    font-size: 1.7rem;
+    width: 2.2rem;
+    margin-top: 5px;
+}
 
+.two{
+    margin-top: 125px;
+}
 
+.flex-contact{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.org p{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+/* Team page css responsivity Tab  */
+@media screen and (max-width: 992px){
+     .img{
+        width: 115px;
+        height: 115px;
+        border-radius: 50%;
+    }
+    .for{
+        display: block;
+        background-image: url(./img/bg-curve-desktop.svg);
+        background-position: top;
+        background-size: 102% 102%;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+    .meet{
+        text-align: center;
+        margin-bottom: 100px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .org{
+        margin-top: -25px;
+        color: #4A4A4A;
+        text-align: center;
+    }
+    .color{
+        color: #4A4A4A ;
+        font-size: bold;
+    }
+    .fab{
+        color: black;
+    }
+.duo{
+    display: flex;
+}
+.duo2{
+    display: flex;
+    margin-top:50px ;
+} 
 
+.org p{
+    text-align: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+}
+/* Teeam page css responsivity mobile  */
+@media screen and (max-width: 550px){
+    .img{
+       width: 115px;
+       height: 115px;
+       border-radius: 50%;
+   }
+   .for{
+       display: block;
+       background-image: url(./img/bg-curve-desktop.svg);
+       background-position: top;
+       background-size: 102% 102%;
+       background-repeat: no-repeat;
+       text-align: center;
+   }
+   .meet{
+       text-align: center;
+       margin-bottom: 100px;
+       padding-right: 50px;
+       padding-left: 50px;
+   }
+   .org{
+       margin-top: -25px;
+       color: #4A4A4A;
+       text-align: center;
+   }
+   .color{
+       color: #4A4A4A ;
+       font-size: bold;
+   }
+ 
+.duo{
+   display: block;
+}
+.duo2{
+   display: block;
+   margin-top:50px ;
+} 
+
+.org p{
+   text-align: center;
+   padding-left: 3rem;
+   padding-right: 3rem;
+}
+.soufian{
+    margin-top: 50px;
+}
+.yassine{
+    margin-top: 50px;
+}
+}
 
 
 
@@ -663,4 +819,5 @@ input{
 }
 .resauxsociaux{
     text-align: center;
+    margin-left: 33px;
 }
