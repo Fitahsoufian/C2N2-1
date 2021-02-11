@@ -80,4 +80,33 @@ nav{
 .header-con ul a:hover{
     color: hsl(250deg 100% 65%);
 }
+.all-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+}
 
+.all-divs{
+    text-align: center;
+    margin-top: 1em;
+    max-width: 800px;
+}
+
+.all-divs p{
+    margin: 2em 0;
+}
+a.button{
+    display: inline-block;
+    background-color:   hsl(198, 60%, 50%);
+    padding: 1em;
+    font-size: 1em;
+    border-radius: 1.5em;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+}
+
+.button-all{
+    width: 250px;
+}
