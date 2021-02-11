@@ -401,3 +401,138 @@ li:hover {
     width: 100px;
     height: 100px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* login page css */
+body{
+    background-image: url(/img/page3.png);
+}
+.singup{
+    position: absolute;
+    margin: auto;
+    top: 99px;
+    right: 0px;
+    bottom: 0px;
+    left: 0;
+    width: 400px;
+    height: 400px;
+    background-color: #ccc;
+   
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+     margin-left: 25%;
+     GAP: 22px;
+}
+.singup h2{
+    margin-left: 33px;
+}
