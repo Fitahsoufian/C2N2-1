@@ -511,11 +511,97 @@ li:hover {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* login page css */
 body{
     background-image: url(/img/page3.png);
 }
 .singup{
+    border-radius: 15px;
     position: absolute;
     margin: auto;
     top: 99px;
@@ -523,16 +609,58 @@ body{
     bottom: 0px;
     left: 0;
     width: 400px;
-    height: 400px;
-    background-color: #ccc;
-   
+    height: 450px;
+}
+.opo{
+    border-radius: 15px;
+    position: absolute;
+    margin: auto;
+    top: 99px;
+    right: 0px;
+    bottom: 0px;
+    left: 0;
+    width: 400px;
+    height: 450px;
+    background-color: #fff;
+    opacity: 0.3;
 }
 .contact{
     display: flex;
     flex-direction: column;
-     margin-left: 25%;
+     margin-left: 15%;
      GAP: 22px;
+     WIDTH: 270PX;
 }
 .singup h2{
-    margin-left: 33px;
+    margin-left: 60px;
+    
+}
+input{
+    opacity: 1;
+    border: none;
+}
+.p{
+    padding: 11px;
+    MARGIN-RIGHT: 76px;
+    FLOAT: RIGHT;
+    text-decoration: underline;
+    font-size: 7px;
+}
+.fle{
+    display: flex;
+    flex-direction: column;
+    WIDTH: 100%;
+    padding: 0rem 7rem 1rem 6rem;
+}
+.p p{
+    font-size: 14px;
+}
+.rs{
+    padding-right: 15px;
+    
+    WIDTH: 35px;
+    text-align: center;
+}
+.resauxsociaux{
+    text-align: center;
 }
