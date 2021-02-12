@@ -395,14 +395,15 @@ li:hover {
 }
 
 
-
 /* Team page css */
-.img{
+
+.img {
     width: 115px;
     height: 115px;
     border-radius: 50%;
 }
-.for{
+
+.for {
     display: flex;
     background-image: url(./img/bg-curve-desktop.svg);
     background-position: top;
@@ -410,69 +411,80 @@ li:hover {
     background-repeat: no-repeat;
     text-align: center;
 }
-.duo{
+
+.duo {
     display: flex;
 }
-.duo2{
-display: flex;
+
+.duo2 {
+    display: flex;
 }
-.meet{
+
+.meet {
     text-align: center;
     margin-bottom: 100px;
 }
 
-
-.fab:hover{
+.fab:hover {
     color: indianred;
     cursor: pointer;
 }
 
-.social .social-media .fab{
+.social .social-media .fab {
     font-size: 22px;
     width: 19px;
     margin-top: 0px;
     color: white;
 }
-.container ul li a:hover{
+
+.container ul li a:hover {
     color: indianred;
     cursor: pointer;
 }
-.org{
+
+.org {
     margin-top: -25px;
     color: #4A4A4A;
 }
-.color{
-    color: #4A4A4A ;
+
+.color {
+    color: #4A4A4A;
     font-size: bold;
 }
-.fab{
+
+.fab {
     color: black;
     font-size: 1.7rem;
     width: 2.2rem;
     margin-top: 5px;
 }
 
-.two{
+.two {
     margin-top: 125px;
+    padding-bottom: 4.6rem;
 }
 
-.flex-contact{
+.flex-contact {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
-.org p{
+
+.org p {
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
+
 /* Team page css responsivity Tab  */
-@media screen and (max-width: 992px){
-     .img{
+
+@media screen and (max-width: 992px) {
+    .img {
         width: 115px;
         height: 115px;
         border-radius: 50%;
     }
-    .for{
+    .for {
         display: block;
         background-image: url(./img/bg-curve-desktop.svg);
         background-position: top;
@@ -480,283 +492,98 @@ display: flex;
         background-repeat: no-repeat;
         text-align: center;
     }
-    .meet{
+    .meet {
         text-align: center;
         margin-bottom: 100px;
         padding-left: 50px;
         padding-right: 50px;
     }
-    .org{
+    .org {
         margin-top: -25px;
         color: #4A4A4A;
         text-align: center;
     }
-    .color{
-        color: #4A4A4A ;
+    .color {
+        color: #4A4A4A;
         font-size: bold;
     }
-    .fab{
+    .fab {
         color: black;
     }
-.duo{
-    display: flex;
+    .duo {
+        display: flex;
+    }
+    .duo2 {
+        display: flex;
+        margin-top: 50px;
+    }
+    .org p {
+        text-align: center;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
 }
-.duo2{
-    display: flex;
-    margin-top:50px ;
-} 
 
-.org p{
-    text-align: center;
-    padding-left: 3rem;
-    padding-right: 3rem;
-}
-}
+
 /* Teeam page css responsivity mobile  */
-@media screen and (max-width: 550px){
-    .img{
-       width: 115px;
-       height: 115px;
-       border-radius: 50%;
-   }
-   .for{
-       display: block;
-       background-image: url(./img/bg-curve-desktop.svg);
-       background-position: top;
-       background-size: 102% 102%;
-       background-repeat: no-repeat;
-       text-align: center;
-   }
-   .meet{
-       text-align: center;
-       margin-bottom: 100px;
-       padding-right: 50px;
-       padding-left: 50px;
-   }
-   .org{
-       margin-top: -25px;
-       color: #4A4A4A;
-       text-align: center;
-   }
-   .color{
-       color: #4A4A4A ;
-       font-size: bold;
-   }
- 
-.duo{
-   display: block;
+
+@media screen and (max-width: 612px) {
+    .img {
+        width: 115px;
+        height: 115px;
+        border-radius: 50%;
+    }
+    .for {
+        display: block;
+        background-image: url(./img/bg-curve-desktop.svg);
+        background-position: top;
+        background-size: 102% 102%;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+    .meet {
+        text-align: center;
+        margin-bottom: 100px;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .org {
+        margin-top: -25px;
+        color: #4A4A4A;
+        text-align: center;
+    }
+    .color {
+        color: #4A4A4A;
+        font-size: bold;
+    }
+    .duo {
+        display: block;
+    }
+    .duo2 {
+        display: block;
+        margin-top: 50px;
+    }
+    .org p {
+        text-align: center;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .soufian {
+        margin-top: 50px;
+    }
+    .yassine {
+        margin-top: 50px;
+    }
 }
-.duo2{
-   display: block;
-   margin-top:50px ;
-} 
-
-.org p{
-   text-align: center;
-   padding-left: 3rem;
-   padding-right: 3rem;
-}
-.soufian{
-    margin-top: 50px;
-}
-.yassine{
-    margin-top: 50px;
-}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* login page css */
-body{
-    background-image: url(/img/page3.png);
+
+body {
+    background-image: url(./img/page3.png);
 }
-.singup{
+
+.singup {
     border-radius: 15px;
     position: absolute;
     margin: auto;
@@ -767,7 +594,8 @@ body{
     width: 400px;
     height: 450px;
 }
-.opo{
+
+.opo {
     border-radius: 15px;
     position: absolute;
     margin: auto;
@@ -780,44 +608,52 @@ body{
     background-color: #fff;
     opacity: 0.3;
 }
-.contact{
+
+.contact {
     display: flex;
     flex-direction: column;
-     margin-left: 15%;
-     GAP: 22px;
-     WIDTH: 270PX;
+    margin-left: 15%;
+    GAP: 22px;
+    WIDTH: 270PX;
 }
-.singup h2{
+
+.singup h2 {
     margin-left: 60px;
-    
+    padding-top: 1.5rem;
 }
-input{
+
+input {
     opacity: 1;
     border: none;
 }
-.p{
+
+.p {
     padding: 11px;
     MARGIN-RIGHT: 76px;
     FLOAT: RIGHT;
     text-decoration: underline;
     font-size: 7px;
 }
-.fle{
+
+.fle {
     display: flex;
     flex-direction: column;
     WIDTH: 100%;
     padding: 0rem 7rem 1rem 6rem;
 }
-.p p{
+
+.p p {
     font-size: 14px;
 }
-.rs{
+
+.rs {
     padding-right: 15px;
-    
     WIDTH: 35px;
     text-align: center;
+    cursor: pointer;
 }
-.resauxsociaux{
+
+.resauxsociaux {
     text-align: center;
     margin-left: 33px;
 }
