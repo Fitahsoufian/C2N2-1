@@ -1,14 +1,20 @@
+
+@media (max-width: 768px){
+    .reflexion-con{
+        width: 80%;
+    }
+}
+
 @media (min-width: 768px){
     .all{
         background-image: url("images/bg-curvy-desktop.svg");
     }
+
     .for{
         flex-direction: row;
         align-items: center;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin-top: 50px;
-        padding-top: 19px;
         }
 
     .items{
@@ -16,12 +22,17 @@
         margin-bottom: 5em;
         max-width: 400px;
         }
-    .saty-productive {
-            margin-top: 2em;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            margin-bottom: 7em;
-        }
 
+    .reflexion-con{
+        flex-direction: row;
+        justify-content: space-between;
+        gap:20px;
     }
+
+    .comment{
+        flex: 0 0 32%;
+        margin: 1em 0;
+        padding: 1.5em;
+        border-radius: 10px;
+    }
+}
