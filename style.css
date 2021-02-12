@@ -110,15 +110,16 @@ nav{
     flex-direction: column;
     align-items: center;
     max-width: 600px;
+
 }
 
-.cta-content{
+.all-divs{
     text-align: center;
     margin-top: 1em;
     max-width: 800px;
 }
 
-.cta-content p{
+.all-divs p{
     margin: 2em 0;
 }
 
@@ -128,6 +129,7 @@ nav{
     flex-direction: column;
     align-items: center;
     max-width: 900px;
+    margin-top: 40px;
 }
 
 .items{
