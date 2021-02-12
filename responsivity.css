@@ -16,6 +16,14 @@
         margin-bottom: 5em;
         max-width: 400px;
         }
+    .saty-productive{
+         margin-top: 2em;
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         margin-bottom: 7em;
+        }
+
 
     .reflexion-con{
         flex-direction: row;
@@ -24,7 +32,7 @@
     }
     .reflexion{
         
-        width: 88%;
+        width: 93%;
     }
 
     .comment{
@@ -92,4 +100,34 @@
     margin: 0;
     width: 75%;
 }
+
+.our-team{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    
+    padding: 12px 20px 5px 4px;
+}
+.text-button{
+    display: flex;
+    flex-direction: column;
+}
+.imaget{
+    width:100%;
+}
+.imaget img{
+	width: 100%;
+}
+h1{
+	font-size: 30px;
+}
+
+
+
 }
